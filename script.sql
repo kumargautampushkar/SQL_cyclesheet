@@ -23,6 +23,22 @@ VALUES
 ('Alicia' ,'J' ,'Zelaya' ,'999887777' ,'1958-07-19' ,'3321 Castle,Spring,TX' ,'F' ,25000 ,987654321 ,4),
 ('Ahmad' ,'V' ,'Jabbar' ,'987987987' ,'1959-03-29' ,'980 Dallas,Houston,TX','M','25000','987654321','4');
 
+CREATE TABLE Department (
+    DepartmentName VARCHAR(15),
+    DepartmentNumber NUMBER(5),
+    ManagerSSN CHAR(9),
+    ManageStartDate DATE
+);
+
+INSERT INTO Department (DepartmentName, DepartmentNumber, ManagerSSN, ManageStartDate)
+VALUES
+('Manufacture', 1, '888665555', '1971-06-19'),
+('Administration', 2, '543216789', '1999-01-04'),
+('Headquarter', 3, '554433221', '1955-09-22'),
+('Finance', 4, '987654321', '1985-01-01'),
+('Research', 5, '333445555', '1978-05-22');
+
+
 CREATE TABLE Project (
     ProjectName VARCHAR(15),
     ProjectNumber NUMBER(5),
