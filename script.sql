@@ -184,3 +184,12 @@ VALUES
 ('999887777', 12, 13.0),
 ('543216789', 22, 17.0),
 ('554433221', 1945, 21.5);
+
+INSERT INTO Dependent (EmployeeSSN, DependentName, Sex, Birthday, Relationship)
+VALUES
+('333445555', 'Alice', 'F', '1976-04-05', 'Daughter'),
+('333445555', 'Theodore', 'M', '1973-10-25', 'Son'),
+('333445555', 'Joy', 'F', '1948-05-03', 'Spouse'),
+('987654321', 'Abner', 'M', '1932-02-29', 'Spouse'),
+('123456789', 'Alice', 'F', '1978-12-31', 'Daughter'),
+('123456789', 'Elizabeth', 'F', '1957-05-05', 'Spouse');
