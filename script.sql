@@ -157,4 +157,30 @@ add constraint project_department_fk_dnum
 foreign key (dept_no) references department(dept_no)
 on delete set null;
 
- 
+INSERT INTO Dept_locations (DepartmentNumber, DepartmentLocation)
+VALUES
+(1, 'Houston'),
+(1, 'Chicago'),
+(2, 'New York'),
+(2, 'San Francisco'),
+(3, 'Salt Lake City'),
+(4, 'Stafford'),
+(4, 'Bellaire'),
+(5, 'Sugarland'),
+(5, 'Houston');
+
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours)
+VALUES
+('123456789', 3388, 32.5),
+('123456789', 1945, 7.5),
+('666884444', 3388, 40.0),
+('453453453', 77, 20.0),
+('453453453', 22, 20.0),
+('333445555', 77, 10.0),
+('333445555', 6688, 10.0),
+('333445555', 43, 35.0),
+('333445555', 22, 28.5),
+('999887777', 1, 11.5),
+('999887777', 12, 13.0),
+('543216789', 22, 17.0),
+('554433221', 1945, 21.5);
