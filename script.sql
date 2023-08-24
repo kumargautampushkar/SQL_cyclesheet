@@ -193,3 +193,18 @@ VALUES
 ('987654321', 'Abner', 'M', '1932-02-29', 'Spouse'),
 ('123456789', 'Alice', 'F', '1978-12-31', 'Daughter'),
 ('123456789', 'Elizabeth', 'F', '1957-05-05', 'Spouse');
+
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('123456789', 3388, 32.5);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('123456789', 1945, 7.5);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('666884444', 3388, 40.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('453453453', 77, 20.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('453453453', 22, 20.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('333445555', 77, 10.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('333445555', 6688, 10.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('333445555', 43, 35.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('333445555', 22, 28.5);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('999887777', 1, 11.5);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('999887777', 12, 13.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('543216789', 22, 17.0);
+INSERT INTO Works_On (EmployeeSSN, ProjectNumber, Hours) VALUES ('554433221', 1945, 21.5);
+
